@@ -10,6 +10,7 @@ import "fmt"
 func main() {
 	fmt.Println("test")
 	aAa := 1
+	defer aAa = 2
 
 	fmt.Println(aAa)
 }
